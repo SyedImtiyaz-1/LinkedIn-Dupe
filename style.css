@@ -25,8 +25,8 @@ body {
 }
 
 .logo {
-    padding: 2.5px 8px;
-    font-size: 25px;
+    padding: 2.7px 5px;
+    font-size: 23px;
 }
 
 .navLeft {
@@ -43,9 +43,10 @@ body {
 .navSearch {
     display: flex;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 3px;
     height: 22px;
     margin-top: 5.5px;
+    width: 175px;
     color: grey;
     background-color: #eef3f8;
 }
@@ -63,14 +64,19 @@ body {
 }
 
 h3{
-    font-size:8px
+    font-size:7.8px
 }
 .navOpt{
     font-size: 10.5px;
     margin-top: 5px;
-    padding: 1px 12px 0px 12px ;
+    padding: 1px 13.5px 0px 13.5px ;
     color: rgb(109, 108, 108);
 }
 .navRight :hover{
     color:rgb(24, 24, 24);
+}
+
+.vl{
+    border-left: 1px solid rgb(223, 223, 223);
+    
 }
