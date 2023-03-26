@@ -115,10 +115,18 @@ h3{
     font-size: 65px;
 }
 
-#nameleft{
+.nameleft{
     font-size: 16px;
     margin: 16px 0px 8px 0px;
     font-weight: bold;
+}
+
+.leftside1 h2:hover{
+    text-decoration: underline;
+}
+
+.text{
+    cursor: text;
 }
 
 hr{
@@ -132,4 +140,12 @@ hr{
 
 .leftside2 p{
     text-align: start;
+    font-weight: bold;
+    color: rgb(107, 107, 107);
+}
+
+.leftside2 p span{
+    color: rgb(46, 100, 202);
+    font-weight: bold;
+
 }
