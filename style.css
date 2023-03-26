@@ -95,8 +95,6 @@ h3{
     display: flex;
     margin-left: 145px;
     margin-top: 49px;
-
-    
 }
 
 .leftContainer{
@@ -106,21 +104,17 @@ h3{
     border-radius: 5px;
     padding: 15px;
     display: flex;
-    float: left;
 
 }
 
 .leftContainerPart{
-    position: absolute;
     border: 1px solid grey;
     height: 143px;
     width: 130px;
     padding: 15px;
     border-radius: 5px;
     margin-top: 236px;
-    position: fixed;
-
-
+    position: absolute;
 }
 
 .midContainer{
@@ -135,12 +129,21 @@ h3{
 }
 
 .rightContainer{
-    height: 385px;
+    height: 180px;
     width: 165px;
     margin-left: 17px;
     border: 1px solid grey;
     border-radius: 5px;
     padding: 15px;
     display: flex;
-    float: left;
+}
+.rightContainerPart{
+    height: 123px;
+    width: 165px;
+    margin-left: 587px;
+    margin-top: 216px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+    position:absolute;
 }
