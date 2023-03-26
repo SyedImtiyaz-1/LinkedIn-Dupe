@@ -69,7 +69,7 @@ h3{
 .navOpt{
     font-size: 10.5px;
     margin-top: 5px;
-    padding: 1px 13.5px 0px 13.5px ;
+    padding: 1px 10.5px 0px 10.5px ;
     color: rgb(109, 108, 108);
 }
 .navRight :hover{
@@ -102,10 +102,32 @@ h3{
 .leftContainer{
     height: 385px;
     width: 130px;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 5px;
     padding: 15px;
     display: flex;
     float: left;
 
+}
+
+.midContainer{
+    height: 385px;
+    width: 360px;
+    margin-left: 17px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    float: left;
+}
+
+.rightContainer{
+    height: 385px;
+    width: 165px;
+    margin-left: 17px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    float: left;
 }
