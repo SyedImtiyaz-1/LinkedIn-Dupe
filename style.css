@@ -17,10 +17,10 @@ body {
     background-color: #ffffff;
     height: 33px;
     display: flex;
-    position: sticky;
     z-index: 999;
     justify-content: space-evenly;
     border-bottom: 0.1 solid lightgray;
+    position: fixed;
    
 }
 
@@ -94,13 +94,13 @@ h3{
     height: 100%;
     display: flex;
     margin-left: 145px;
-    margin-top: 15px;
+    margin-top: 49px;
 
     
 }
 
 .leftContainer{
-    height: 385px;
+    height: 200px;
     width: 130px;
     border: 1px solid grey;
     border-radius: 5px;
@@ -110,8 +110,21 @@ h3{
 
 }
 
+.leftContainerPart{
+    position: absolute;
+    border: 1px solid grey;
+    height: 143px;
+    width: 130px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 236px;
+    position: fixed;
+
+
+}
+
 .midContainer{
-    height: 385px;
+    height: 1000px;
     width: 360px;
     margin-left: 17px;
     border: 1px solid grey;
