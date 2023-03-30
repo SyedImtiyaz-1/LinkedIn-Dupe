@@ -31,13 +31,14 @@ body {
 .navLeft {
     display: flex;
     cursor: pointer;
-    margin-left: 80px;
+    margin-left: 155px;
 
 }
 
 .navRight {
     display: flex;
     cursor: pointer;
+    margin-right: 125px;
 }
 
 .navSearch {
@@ -63,13 +64,17 @@ body {
     padding: 7px;
 }
 
+.imgForMe{
+    margin-right: 12px;
+}
+
 h3{
     font-size:13px
 }
 .navOpt{
     font-size: 20px;
     margin-top: 5px;
-    padding: 5px 10.5px 0px 10.5px ;
+    padding: 5px 12.5px 0px 12.5px ;
     color: rgb(109, 108, 108);
 }
 .navRight :hover{
@@ -88,7 +93,6 @@ h3{
     display: flex;
 }
 
-
 .mainbody{
     margin: auto; 
     width: 65%;
@@ -98,14 +102,16 @@ h3{
 
 .leftside1{
     float: left;
+    width: 227px;
     background-position: center;
     border: 1.5px solid lightgrey;
+    margin-left: 50px;
     border-radius: 10px ;
     cursor: pointer;
 }
 
 #leftimg{
-    width: 262px;
+    width: 227px;
     display: block;
     margin-bottom: -35px;
     border-radius: 10px 10px 0px 0px;
