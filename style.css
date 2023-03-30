@@ -142,7 +142,7 @@ hr{
 
 .leftside2{
     margin: 14px;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .leftside2 p{
@@ -168,7 +168,7 @@ hr{
 
 .leftside3{
     padding: 10px;
-    font-size: 13px;
+    /* font-size: 10px; */
     float: left;
 }
 
@@ -181,15 +181,11 @@ hr{
     padding: 5px;
     color: black;
     font-weight: bold;
-    font-size: 13px;
-}
-
-.leftside3 a{
-    margin-left: 12px;  
+    font-size: 12px;
 }
 
 #premiumText i{
-    margin-right: 8px;
+    margin-right: 6px;
 }
 
 
