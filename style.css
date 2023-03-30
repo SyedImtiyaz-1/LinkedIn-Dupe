@@ -149,3 +149,40 @@ hr{
     font-weight: bold;
 
 }
+
+.leftsidemid{
+    float: left;
+    background-position: center;
+    border: 1.5px solid lightgrey;
+    border-radius: 10px ;
+    cursor: pointer;
+
+}
+
+.leftside3{
+    padding: 10px;
+    font-size: 13px;
+    float: left;
+}
+
+.leftside3 p{
+    font-size: 13px;
+    color: grey;
+}
+
+#premiumText{
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.leftside3 a{
+    margin-left: 12px;  
+}
+
+#premiumText i{
+    margin-right: 8px;
+}
+
+
