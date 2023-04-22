@@ -193,4 +193,16 @@ hr{
     margin-right: 6px;
 }
 
+.leftside4{
+    height: 4vh;
+}
+
+.leftside4 span{
+    font-weight: 600;
+    font-size: 13.5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    padding-left: 11px;
+    padding-top: 8.5px;
+}
 
