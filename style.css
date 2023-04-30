@@ -100,7 +100,7 @@ h3{
 .mainbody{
     margin: auto; 
     width: 65%;
-    height: 100%;
+    height:max-content;
     justify-content: start;
     margin-top: 25px ; 
 }
@@ -243,7 +243,7 @@ hr{
     margin-left: 50px;
     border-radius: 10px;
     margin-top: 36.2vh;    
-    position: absolute;
+    /* position: absolute; */
 }
 
 .bleftside1 p{
@@ -399,3 +399,48 @@ hr{
     background-color: rgb(235, 190, 190);
     /* transition: 1s; */
 
+#disc:hover{
+background-color: rgb(234, 228, 228);
+}
+
+/* post section */
+.post{
+    border: 1px solid rgb(0, 0, 0);
+    height: 11.5vh;
+    width: 29vw;
+    margin:auto;
+    margin-left: 16vw;
+    position: relative;
+    bottom: 68.3vh;
+    border-radius: 10px;
+}
+
+.profile{
+    padding: 0.5rem;
+}
+
+.profile i{
+    font-size: 4vh;
+    float: left;
+    padding-left: 0.4rem;
+    padding-top: 0.2rem;
+}
+
+.startpost{
+    border: 1px solid grey;
+    height: 4.3vh;
+    width: 25vw;
+    position: relative;
+    bottom: 0.3rem;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.startpost p{
+    font-weight: 700;
+    float: left;
+    font-size: 0.9rem;
+    padding-left: 0.8rem;
+    padding-top: 10.2px;
+    color: rgb(68, 64, 64);
+}
