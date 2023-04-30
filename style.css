@@ -113,6 +113,7 @@ h3{
     margin-left: 50px;
     border-radius: 10px ;
     cursor: pointer;
+    background-color: white;
 }
 
 #leftimg{
@@ -243,6 +244,7 @@ hr{
     margin-left: 50px;
     border-radius: 10px;
     margin-top: 36.2vh;    
+    background-color: white;
     /* position: absolute; */
 }
 
@@ -405,7 +407,7 @@ background-color: rgb(234, 228, 228);
 
 /* post section */
 .post{
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid lightgrey;
     height: 11.5vh;
     width: 29vw;
     margin:auto;
@@ -413,6 +415,7 @@ background-color: rgb(234, 228, 228);
     position: relative;
     bottom: 68.3vh;
     border-radius: 10px;
+    background-color: white;
 }
 
 .profile{
@@ -443,4 +446,31 @@ background-color: rgb(234, 228, 228);
     padding-left: 0.8rem;
     padding-top: 10.2px;
     color: rgb(68, 64, 64);
+}
+
+.posticons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.posticons i{
+    /* margin: 25px; */
+    margin-top: 12px;
+    padding-right: 15px;
+    font-size: 2vh;
+}
+
+.posticons a{
+    color: rgb(68, 64, 64);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    width: 21%;
+    height: 4.5vh;
+}
+
+.posticons a:hover{
+    background-color: rgb(234, 228, 228) ;
+    border-radius: 5px;
 }
