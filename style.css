@@ -549,7 +549,7 @@ hr {
 
 #anyone {
     border: 1px solid black;
-    height: 2.3vh;
+    height: 2.8vh;
     width: 6.1vw;
     border-radius: 20px;
     position: relative;
@@ -557,14 +557,37 @@ hr {
     top: 3.5vh;
 }
 
-#anyone i {
+#anyone .earth {
     display: flex;
-    font-size: 1rem;
+    font-size: 1.1em;
     position: relative;
-    bottom: 10px;
     align-items: center;
+    padding-left: 0.7rem;
+    padding-top: 0.3em;
+    color: rgb(74, 71, 71);
 }
 
 #closepop:hover {
     color: #000;
+}
+
+.earth p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding-top: 0.2em;
+    padding-left: 0.4rem;
+    color: rgb(74, 71, 71);
+}
+
+#arrow {
+    padding: 0;
+    height: 0;
+    width: 0;
+    font-size: 0.8vw;
+    position: relative;
+    bottom: 1vh;
+    padding-left: 0.4rem;
+    padding-top: 0.2rem;
+
 }
