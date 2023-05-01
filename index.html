@@ -13,7 +13,8 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="icon" type="image"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Feed | LinkedIn</title>
 </head>
 
@@ -120,19 +121,15 @@
                 <h4 id="disc">Discover more</h4>
             </div>
 
-
             <!-- mid content -->
-
             <section class="post">
                 <div class="profile">
                     <a href="#"><i class="far fa-user-circle egg"></i></a>
                 </div>
 
                 <div class="startpost">
-                   <p>Start a post</p>
+                    <p>Start a post</p>
                 </div>
-
-
 
                 <div class="posticons">
                     <a href=""><i class="fa-regular fa-image" style="color: #3584e4;"></i>Photo</a>
@@ -143,7 +140,17 @@
             </section>
         </div>
     </div>
-    
+
+    <!-- sort hr line -->
+
+    <div class="hrsort">
+        <hr id="hrid">
+        <p>Sort by: <b>Top</b><i id="arrow2" class="fa-sharp fa-solid fa-caret-down"></i></p>
+        
+    </div>
+
+    <!-- Post popup starts here !! -->
+
     <div class="popup">
         <div class="popup-overlay">
             <div class="popup-content">
@@ -160,15 +167,22 @@
                     <div id="anyone">
                         <span class="material-symbols-outlined earth">
                             public <p>Anyone</p><i id="arrow" class="fa-sharp fa-solid fa-caret-down"></i>
-                            </span>
+                        </span>
                     </div>
+                </div>
+
+                <div class="textarea">
+                    <input type="textarea" id="areaText" placeholder="What do you want to talk about?" />
                 </div>
             </div>
         </div>
     </div>
 
-        <!-- left side done -->
-        <script src="script.js"></script>
+    <!-- Post popup close here !! -->
+
+    <!-- left side done -->
+    <script src="script.js"></script>
 
 </body>
+
 </html>
