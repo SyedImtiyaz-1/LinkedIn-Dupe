@@ -105,12 +105,39 @@ h3 {
     margin: 2.5vh auto;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 54px;
-    height: 80vh; 
+    height: 78vh; 
     border: 1px solid black;
 }
 
-.left1{
-    background-color: red;
-    
-
+.left{
+    background-color: #f3f2ef;
+    /* f3f2ef */
+    height: 77.5vh;
+    width: 11.8vw;
+    position: absolute;
+    align-self: start;
+    margin-bottom: 20px;
 }
+
+.left-part1{
+    background-color: rgb(255, 255, 255);
+    background-image: url(imgs/1677516984935.jpeg);
+    background-size:12vw;
+    background-repeat: no-repeat;
+    height: 35vh;
+}
+
+.left-part1 img{
+    width: 6vh;
+    position: relative;
+    top:18px;
+    border-radius: 50%;
+}
+
+.left-part2{
+    background-color: red;
+    height: 41vh;
+    background-color: blue;
+    margin-top: 1vh;
+}
+
