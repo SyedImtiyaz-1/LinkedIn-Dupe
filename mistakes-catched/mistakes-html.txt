@@ -115,3 +115,1235 @@
     <!-- Post popup close here !! -->
 
     left side done
+
+
+// vasi's linkedin design :- 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="asset-url"
+      class="mercado-icons-sprite"
+      id="artdeco-icons/static/images/sprite-asset"
+      content="https://static-exp1.licdn.com/sc/h/7438dbnn8galtczp2gk2s4bgb"
+    />
+    <meta name="description" content="" />
+    <meta name="google" content="notranslate" />
+    <meta name="service" content="voyager-web" />
+    <meta name="theme-color" content="#ffffff" id="theme-color-meta-tag" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <meta name="baseCDNUrl" content="https://static-exp1.licdn.com/sc/h" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://static-exp1.licdn.com/sc/h/akt4ae504epesldzj74dzred8"
+      id="favicon-svg"
+    />
+    <link
+      rel="alternate icon"
+      href="https://static-exp1.licdn.com/sc/h/8s162nmbcnfkg7a0k8nq9wwqo"
+      id="favicon-png"
+      sizes="any"
+    />
+    <link
+      rel="mask-icon"
+      href="https://static-exp1.licdn.com/sc/h/8a1a8xqjolkyjbf9n3i40oimj"
+      color="#0a66c2"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,500;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>LinkedIn</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="left-nav">
+          <div class="logo">
+            <img src="/assets/images/logo.png" alt="" />
+          </div>
+          <div class="search-box">
+            <input type="text" class="searchterms" placeholder="Search" />
+          </div>
+        </div>
+        <div class="right-nav">
+          <div class="nav-item">
+            <div class="icon">
+              <img src="/assets/images/home.png" alt="" />
+            </div>
+            <span>Home</span>
+          </div>
+          <div class="nav-item">
+            <div class="icon">
+              <img src="/assets/images/people.png" alt="" />
+            </div>
+            <span>Network</span>
+          </div>
+          <div class="nav-item">
+            <div class="icon">
+              <img src="/assets/images/jobs.png" alt="" />
+            </div>
+            <span>Jobs</span>
+          </div>
+          <div class="nav-item">
+            <div class="icon">
+              <img src="/assets/images/notification.png" alt="" />
+            </div>
+            <span>Notification</span>
+          </div>
+          <div class="nav-item">
+            <div class="icon">
+              <img src="/assets/images/messages.png" alt="" />
+            </div>
+            <span>Messages</span>
+          </div>
+
+          <div class="nav-item-profile">
+            <img src="/assets/images/profile2.png" alt="" />
+          </div>
+          <div class="nav-item right-border"></div>
+          <div class="nav-item-profile">
+            <img src="/assets/images/work2.png" alt="" />
+          </div>
+          <div class="nav-item nav-text">
+            <p>
+              Get Hired Faster,<br />
+              Try Premium Free
+            </p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="sec1">
+        <div class="part1">
+          <div class="section1">
+            <div class="img">
+              <img src="/assets/images/profile.jpg" alt="avatar" />
+            </div>
+            <div class="heading">Vasi Ahmed</div>
+          </div>
+          <div class="section2">
+            <div>
+              <p>connections</p>
+              <span>Grow your network</span>
+            </div>
+            <div>
+              <p>Invitations</p>
+            </div>
+          </div>
+          <div class="section3">
+            <div>
+              <p>Access exclusive tools & insights</p>
+              <span>Try Premium for free</span>
+            </div>
+          </div>
+          <div class="sec1-items">
+            <div class="sp">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                data-supported-dps="16x16"
+                fill="currentColor"
+                width="16"
+                height="16"
+                focusable="false"
+              >
+                <path
+                  d="M12 1H4a1 1 0 00-1 1v13.64l5-3.36 5 3.36V2a1 1 0 00-1-1z"
+                ></path>
+              </svg>
+              <div>My items</div>
+            </div>
+          </div>
+        </div>
+        <div class="part2">
+          <div class="section2">
+            <span>Groups</span>
+            <span>Events</span>
+            <span>Followed Hashtags</span>
+          </div>
+
+          <div class="sec1-items">
+            <div class="discover">Discover more</div>
+          </div>
+        </div>
+      </div>
+      <div class="sec2">
+        <div class="sec2-part1">
+          <div class="img-searchbox">
+            <div class="sec2-img">
+              <img src="/assets/images/profile.jpg" alt="avatar" />
+            </div>
+            <div class="sec2-search-box">
+              <input
+                type="text"
+                class="searchterms"
+                placeholder="Start a post"
+              />
+            </div>
+          </div>
+          <div class="sec2-part1-btn">
+            <div class="photo child">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                data-supported-dps="24x24"
+                fill="skyblue"
+                class="mercado-match"
+                width="24"
+                height="24"
+                focusable="false"
+              >
+                <path
+                  d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"
+                ></path>
+              </svg>
+              <div>Photos</div>
+            </div>
+            <div class="video child">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                data-supported-dps="24x24"
+                fill="lightgreen"
+                class="mercado-match"
+                width="24"
+                height="24"
+                focusable="false"
+              >
+                <path
+                  d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"
+                ></path>
+              </svg>
+              <div>Video</div>
+            </div>
+            <div class="event child">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                data-supported-dps="24x24"
+                fill="orange"
+                class="mercado-match"
+                width="24"
+                height="24"
+                focusable="false"
+              >
+                <path
+                  d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"
+                ></path>
+              </svg>
+              <div>Events</div>
+            </div>
+            <div class="article child">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                data-supported-dps="24x24"
+                fill="red"
+                class="mercado-match"
+                width="24"
+                height="24"
+                focusable="false"
+              >
+                <path
+                  d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"
+                ></path>
+              </svg>
+              <div>Write articles</div>
+            </div>
+          </div>
+        </div>
+        <div class="mid">
+          <div class="hr">
+            <hr />
+          </div>
+          <div class="sort">
+            <span class="sort-span">Sort by:</span>
+            <span>Top</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              data-supported-dps="16x16"
+              fill="currentColor"
+              class="mercado-match"
+              width="16"
+              height="16"
+              focusable="false"
+            >
+              <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="sec2-part-2">
+          <div class="feed1">
+            <div class="feed-top">
+              <div class="feed-left">
+                <div class="feed-logo">
+                  <img
+                    width="48"
+                    src="https://media-exp1.licdn.com/dms/image/C4E0BAQHlp20_zMe0LQ/company-logo_100_100/0/1624105117599?e=1661990400&amp;v=beta&amp;t=ivE8oaM4fxDy5OkcVfhDxTpxFfhp6-kTplXKIE4cw5Y"
+                    loading="lazy"
+                    height="48"
+                    alt="Vidhya Skill School"
+                    id="ember2378"
+                    class="ivm-view-attr__img--centered EntityPhoto-square-3 feed-shared-actor__avatar-image lazy-image ember-view"
+                  />
+                </div>
+                <div class="details">
+                  <span>Vidhya Skill School</span>
+                  <p>634 followers</p>
+                  <div class="sec2-part2-time">
+                    <p>2mo •</p>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 16 16"
+                        data-supported-dps="16x16"
+                        fill="currentColor"
+                        class="mercado-match"
+                        width="16"
+                        height="16"
+                        focusable="false"
+                      >
+                        <path
+                          d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="feed-right-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  data-supported-dps="24x24"
+                  fill="currentColor"
+                  class="mercado-match"
+                  width="24"
+                  height="24"
+                  focusable="false"
+                >
+                  <path
+                    d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="feed-description"></div>
+            <div class="feed-image">
+              <img
+                src="https://media-exp1.licdn.com/dms/image/C4D1FAQFsnZcImBSjuw/feedshare-document-images_800/1/1645765173535?e=1654732800&v=beta&t=8_YTUaF6LcUhN8oCAzS2bmX2V4PiCs3FmzjrnHYr0XU"
+                alt=""
+              />
+            </div>
+
+            <div class="likes-count">
+              <div class="likes-count-img">
+                <img
+                  class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light"
+                  src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt"
+                  alt="like"
+                  data-test-reactions-icon-type="LIKE"
+                  data-test-reactions-icon-theme="light"
+                />
+                <div class="feed-p">23 Likes</div>
+              </div>
+              <div class="comments-count">
+                <div class="feed-p">2 comments</div>
+              </div>
+            </div>
+            <div class="feed-btn">
+              <div class="like bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Like</div>
+              </div>
+              <div class="comment bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Comments</div>
+              </div>
+              <div class="share bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Share</div>
+              </div>
+              <div class="send bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Send</div>
+              </div>
+            </div>
+          </div>
+          <div class="feed2">
+            <div class="feed-top">
+              <div class="feed-left">
+                <div class="feed-logo">
+                  <img
+                    width="48"
+                    src="https://media-exp1.licdn.com/dms/image/C4E0BAQHlp20_zMe0LQ/company-logo_100_100/0/1624105117599?e=1661990400&amp;v=beta&amp;t=ivE8oaM4fxDy5OkcVfhDxTpxFfhp6-kTplXKIE4cw5Y"
+                    loading="lazy"
+                    height="48"
+                    alt="Vidhya Skill School"
+                    id="ember2378"
+                    class="ivm-view-attr__img--centered EntityPhoto-square-3 feed-shared-actor__avatar-image lazy-image ember-view"
+                  />
+                </div>
+                <div class="details">
+                  <span>Vidhya Skill School</span>
+                  <p>634 followers</p>
+                  <div class="sec2-part2-time">
+                    <p>2mo •</p>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 16 16"
+                        data-supported-dps="16x16"
+                        fill="currentColor"
+                        class="mercado-match"
+                        width="16"
+                        height="16"
+                        focusable="false"
+                      >
+                        <path
+                          d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="feed-right-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  data-supported-dps="24x24"
+                  fill="currentColor"
+                  class="mercado-match"
+                  width="24"
+                  height="24"
+                  focusable="false"
+                >
+                  <path
+                    d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="feed-description"></div>
+            <div class="feed2-image">
+              <img
+                src="https://media-exp1.licdn.com/dms/image/C4D22AQEkfWAkZujP9g/feedshare-shrink_800/0/1650520426972?e=1656547200&v=beta&t=WvwPsyS0S7h0EVeNzh8CDuDDPUs3Z81CdxvwCQ_kqrE"
+                alt="#"
+              />
+            </div>
+
+            <div class="likes-count">
+              <div class="likes-count-img">
+                <img
+                  class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light"
+                  src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt"
+                  alt="like"
+                  data-test-reactions-icon-type="LIKE"
+                  data-test-reactions-icon-theme="light"
+                />
+                <div class="feed-p">34 Likes</div>
+              </div>
+              <div class="comments-count">
+                <div class="feed-p">2 comments</div>
+              </div>
+            </div>
+            <div class="feed-btn">
+              <div class="like bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Like</div>
+              </div>
+              <div class="comment bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Comments</div>
+              </div>
+              <div class="share bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Share</div>
+              </div>
+              <div class="send bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Send</div>
+              </div>
+            </div>
+          </div>
+          <div class="feed3">
+            <div class="feed-top">
+              <div class="feed-left">
+                <div class="feed-logo">
+                  <img
+                    width="48"
+                    src="https://media-exp1.licdn.com/dms/image/C4E0BAQHlp20_zMe0LQ/company-logo_100_100/0/1624105117599?e=1661990400&amp;v=beta&amp;t=ivE8oaM4fxDy5OkcVfhDxTpxFfhp6-kTplXKIE4cw5Y"
+                    loading="lazy"
+                    height="48"
+                    alt="Vidhya Skill School"
+                    id="ember2378"
+                    class="ivm-view-attr__img--centered EntityPhoto-square-3 feed-shared-actor__avatar-image lazy-image ember-view"
+                  />
+                </div>
+                <div class="details">
+                  <span>Vidhya Skill School</span>
+                  <p>634 followers</p>
+                  <div class="sec2-part2-time">
+                    <p>2mo •</p>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 16 16"
+                        data-supported-dps="16x16"
+                        fill="currentColor"
+                        class="mercado-match"
+                        width="16"
+                        height="16"
+                        focusable="false"
+                      >
+                        <path
+                          d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="feed-right-ic">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  data-supported-dps="24x24"
+                  fill="currentColor"
+                  class="mercado-match"
+                  width="24"
+                  height="24"
+                  focusable="false"
+                >
+                  <path
+                    d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="feed-description"></div>
+            <div class="feed3-image">
+              <img
+                src="https://media-exp1.licdn.com/dms/image/C4D22AQEkfWAkZujP9g/feedshare-shrink_800/0/1650520426972?e=1656547200&v=beta&t=WvwPsyS0S7h0EVeNzh8CDuDDPUs3Z81CdxvwCQ_kqrE"
+                alt="#"
+              />
+            </div>
+
+            <div class="likes-count">
+              <div class="likes-count-img">
+                <img
+                  class="reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light"
+                  src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt"
+                  alt="like"
+                  data-test-reactions-icon-type="LIKE"
+                  data-test-reactions-icon-theme="light"
+                />
+                <div class="feed-p">18 Likes</div>
+              </div>
+              <div class="comments-count">
+                <div class="feed-p">2 comments</div>
+              </div>
+            </div>
+            <div class="feed-btn">
+              <div class="like bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Like</div>
+              </div>
+              <div class="comment bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Comments</div>
+              </div>
+              <div class="share bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Share</div>
+              </div>
+              <div class="send bottom-btm">
+                <div class="feed-ic">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    data-supported-dps="24x24"
+                    fill="currentColor"
+                    class="mercado-match"
+                    width="24"
+                    height="24"
+                    focusable="false"
+                  >
+                    <path
+                      d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="feed-text">Send</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sec3">
+        <div class="sec3-part1">
+          <div class="heading3">
+            <h3>LinkedIn News</h3>
+            <div class="i">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                data-supported-dps="16x16"
+                fill="currentColor"
+                class="mercado-match"
+                width="16"
+                height="16"
+                focusable="false"
+              >
+                <path
+                  d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="data">
+            <div>
+              <p>The 25 top companies in India</p>
+              <span>Top news</span>
+            </div>
+            <div>
+              <p>Unacademy fires 1,000 employees</p>
+              <span>6d ago</span>
+            </div>
+            <div>
+              <p>Surge in VC exits at startups</p>
+              <span>7d ago</span>
+            </div>
+            <div>
+              <p>Indian cos storm the metaverse</p>
+              <span>8h ago</span>
+            </div>
+            <div>
+              <p>Surge in VC exits at startups</p>
+              <span>4d ago</span>
+            </div>
+            <div>
+              <p>Unacademy fires 1,000 employees</p>
+              <span>3d ago</span>
+            </div>
+            <div>
+              <p>Indigo’s passenger volume flies high</p>
+              <span>8h ago</span>
+            </div>
+            <div>
+              <p>PhonePe to double headcount</p>
+              <span>6d ago</span>
+            </div>
+            <div>
+              <p>Flipkart launches healthcare app</p>
+              <span>4d ago</span>
+            </div>
+            <div>
+              <p>Coronavirus: India Updates</p>
+              <span>4d ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="sec3-part2">
+          <div class="sec3-part2-img">
+            <img
+              src="	https://media.licdn.com/media/AAYQAgTPAAgAAQAAAAAAADVuOvKzTF-3RD6j-qFPqhubBQ.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+vasi's css :-
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #e5e6e1;
+  margin-top: 60px;
+}
+.logo img {
+  height: 50px;
+}
+.search-box input {
+  padding: 9px;
+  padding-right: 82px;
+  background-color: rgb(243 243 243);
+  border: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 200px;
+  box-shadow: 1px -8px 20px 0px;
+  position: fixed;
+  top: 0px;
+  background: white;
+  width: 100%;
+}
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.right-nav {
+  display: flex;
+  position: relative;
+  left: 200px;
+}
+.right-border {
+  border-right: 1px solid silver;
+}
+.nav-item {
+  margin: 12px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  cursor: pointer;
+}
+
+.icon img {
+  height: 20px;
+}
+.nav-item-profile img {
+  height: 50px;
+  margin-top: 16px;
+}
+.nav-text {
+  color: rgb(96, 83, 50);
+}
+.nav-text:hover {
+  text-decoration: underline;
+}
+.part1 {
+  border: 1px solid silver;
+  /* padding: 15px; */
+  background-color: white;
+  border-radius: 15px;
+}
+.part1 img {
+  height: 55px;
+  border-radius: 100%;
+}
+.part1 p {
+  color: grey;
+  font-size: small;
+}
+.discover {
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: grey;
+}
+.sp {
+  font-weight: 400;
+  font-size: 15px;
+  color: grey;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.sec1-items :hover {
+  background-color: rgb(225, 225, 225);
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid silver;
+}
+.section2 {
+  border-bottom: 1px solid silver;
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px; */
+}
+.section2 div:hover {
+  background-color: rgb(225, 225, 225);
+}
+.section3 div:hover {
+  background-color: rgb(225, 225, 225);
+}
+.section2 p:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.part2 span:hover {
+  background-color: rgb(225, 225, 225);
+}
+*/ .section1 img {
+  padding: 15px;
+}
+.section3 {
+  /* padding: 10px; */
+  border-bottom: 1px solid silver;
+}
+
+.part1,
+.part2 span {
+  font-weight: 400;
+  font-size: 12px;
+}
+.part2 {
+  border: 1px solid silver;
+  border-radius: 15px;
+  background-color: white;
+
+  position: sticky;
+  top: 80px;
+}
+.part2 span {
+  color: #0a66c2;
+  font-weight: 500;
+  padding: 7px;
+  font-size: small;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  height: 80px;
+}
+
+.sec2-part1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 15px;
+  padding: 10px;
+  background-color: white;
+}
+.img-searchbox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.sec2-img img {
+  height: 55px;
+  border-radius: 100%;
+}
+.sec2-search-box {
+  width: -webkit-fill-available;
+}
+.sec2-search-box input {
+  padding: 14px;
+
+  border-radius: 31px;
+  border: 1px solid silver;
+  width: 90%;
+}
+.mid {
+  display: flex;
+  justify-content: center;
+  /* padding: 10px; */
+  align-items: center;
+}
+.hr {
+  width: 80%;
+}
+.sort {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.sort-span {
+  color: grey;
+}
+.sec2-part-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sec2-part1-btn {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+}
+.child:hover {
+  background-color: rgb(225, 225, 225);
+  border-radius: 2px;
+}
+.child {
+  display: flex;
+  cursor: pointer;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.child div {
+  color: grey;
+}
+.line3 {
+  display: flex;
+  align-items: baseline;
+}
+
+.sec3-part1 {
+  border: 2px solid rgb(231, 231, 231);
+  border-radius: 15px;
+  background-color: white;
+
+  font-size: 15px;
+}
+.heading3 {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading3 h3 {
+  margin: 0;
+}
+.sec3-part1 span {
+  color: grey;
+}
+.sec3-part1 p {
+  font-weight: 400;
+  margin: 0;
+}
+.sec3-part2 {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(232, 232, 232);
+  margin: 10px;
+  position: sticky;
+  top: 80px;
+}
+.sec1 {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+.sec1 p {
+  margin: 5px 10px;
+}
+.part1 span {
+  margin: 10px;
+}
+.sec2 {
+  margin-top: 15px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.feed1 {
+  background-color: white;
+}
+.feed2 {
+  background-color: white;
+}
+.feed3 {
+  background-color: white;
+}
+.feed-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /* align-items: center; */
+}
+.feed-left {
+  display: flex;
+  gap: 20px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.details span {
+  font-weight: 400;
+  font-size: 15px;
+}
+.details p {
+  color: grey;
+  font-size: small;
+  margin: 0;
+}
+.sec2-part2-time {
+  display: flex;
+  gap: 5px;
+}
+.feed-image {
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+.feed3-image {
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+.feed2-image {
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+.feed3-image {
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+.feed-image img {
+  height: 608px;
+}
+.feed2-image img {
+  height: 590px;
+  padding: 10px;
+}
+.feed3-image img {
+  height: 590px;
+  padding: 10px;
+}
+.feed-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3px;
+}
+.bottom-btm {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: grey;
+  cursor: pointer;
+  padding: 10px;
+}
+.bottom-btm:hover {
+  background-color: rgb(225, 225, 225);
+  border-radius: 5px;
+}
+.likes-count {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 21px;
+  padding: 6px 0px;
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+
+.likes-count-img {
+  display: flex;
+  align-items: center;
+}
+.sec3 {
+  margin-top: 15px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.data div {
+  padding: 10px;
+  font-weight: 200;
+}
+.data div:hover {
+  background-color: rgb(225, 225, 225);
+}
