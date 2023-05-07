@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color: #f3f2ef;
     display: flex;
@@ -264,12 +265,13 @@ h3 {
 }
 
 #post{
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     height: 12vh;
     width: 29vw;
     display: flex;
-    border-radius: 15px;
+    border-radius: 10px;
    justify-self:self-start;
+   background-color: white;
    /* position: absolute; */
 }
 
@@ -279,19 +281,22 @@ h3 {
 }
 
 .start-post{
-    border: 1px solid grey;
-    height: 4.8vh;
-    width: 24.8vw;
-    border-radius: 20px;
+    border: 1px solid silver;
+    height: 5vh;
+    width: 24.5vw;
+    border-radius: 30px;
     margin-left: 0.5rem;
     display: flex;
     align-items: center;
-    margin-top: 1vh;
+    margin-top: 1.2vh;
+    margin-left: 1vw;
+    background-color: white;
 }
 
 .start-post h3{
-    padding-left: 0.5rem;
-    color: rgb(112, 112, 112);
+    padding-left: 0.9rem;
+    font-size: 1.5vh;
+    color: rgb(88, 84, 84);
 }
 
 .right-side{
@@ -369,4 +374,11 @@ h3 {
     float: left;
     color:rgb(74, 71, 71);
     margin-top: 0.5vh;
+}
+
+#mid-profile{
+    width: 3.2em;
+    position: relative;
+    top: 0.5em;
+    left: 0.8em;
 }
