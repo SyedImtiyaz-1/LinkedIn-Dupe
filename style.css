@@ -283,7 +283,7 @@ h3 {
     height: 4.8vh;
     width: 24.8vw;
     border-radius: 20px;
-    margin-left: 0.4rem;
+    margin-left: 0.5rem;
     display: flex;
     align-items: center;
     margin-top: 1vh;
@@ -308,17 +308,65 @@ h3 {
     background-color: white;
     margin-bottom: 0.5rem;
     border-radius: 10px;
+    overflow: scroll;
 }
 
-.right-part1 h2{
+.right-part1 h1{
     text-align: left;
     padding: 0.5rem;
     font-size: 1.7vh;
 }
 
 .right-part2{
-    height: 25.9vh;
+    height: 24.9vh;
     width: 15.7vw;
     background-color: white;
+    background-image: url(https://media.licdn.com/media/AAYQAgTPAAgAAQAAAAAAADVuOvKzTF-3RD6j-qFPqhubBQ.png);
     border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-part1 ul{
+    text-align: left;
+    margin-left:1.1em;
+    flex-wrap: wrap;
+    /* margin-right: 0.1rem; */
+    list-style: none;
+}
+
+.right-part1 p{
+    font-size: 0.9em;
+}
+
+.right-part1 ul li::before{
+    content: "\2022";
+    font-size: 1.3em;
+    margin-left: -0.7em;
+    color: rgb(96, 93, 93);
+    padding: 5px;
+
+}
+
+.right-part1 p{
+    margin-bottom: 0.5em;
+}
+
+.right-part1 h2{
+    font-size: 0.9em;
+    padding-left: 1vw;
+    width: 5.5vw;
+    float: left;
+    color: rgb(74, 71, 71);
+    margin-top: 0.5vh;
+    
+}
+
+.arrow{
+    position: relative;
+    top: -2px;
+    left: -5px;
+    float: left;
+    color:rgb(74, 71, 71);
+    margin-top: 0.5vh;
 }
