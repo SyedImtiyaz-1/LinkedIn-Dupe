@@ -1,1 +1,1 @@
-<h1>Linkedin Clone</h1>
+<h1>Linkedin Replica</h1>

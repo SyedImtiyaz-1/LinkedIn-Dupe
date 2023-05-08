@@ -382,3 +382,13 @@ h3 {
     top: 0.5em;
     left: 0.8em;
 }
+
+.posticons{
+    width: 100%;
+    display: block;
+    padding-top: 1vh;
+    /* justify-content: space-evenly; */
+    align-items: end;
+    padding-top: 0;
+
+}
