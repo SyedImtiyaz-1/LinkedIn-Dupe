@@ -247,13 +247,23 @@ h3 {
     float: left;
     width: 100%;
     text-align: left;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+.section-4 span {
+    font-size: 0.8em;
+    color: rgb(0, 0, 0);
+    padding-left: 0.3rem;
+    font-weight: bold;
 }
 
 .section-4:hover {
     background-color: rgb(234, 234, 234);
 }
 
-.section-4 h2 {
+.section-4 i {
     margin-top: 0.5rem;
     margin-bottom: 1vh;
     font-size: 0.9em;
@@ -261,6 +271,7 @@ h3 {
     padding-left: 1rem;
     font-weight: bold;
 }
+
 
 .bottom-part1 p {
     text-align: left;
@@ -272,6 +283,11 @@ h3 {
 
 .bottom-part1 span:hover{
     background-color: rgb(234, 234, 234);
+}
+
+.desc-hvr:hover{
+    background-color: rgb(234, 234, 234);
+    border-bottom-right-radius: 6px;
 }
 
 
@@ -304,7 +320,7 @@ h3 {
     font-size: 1.6vh;
     display: flex;
     justify-content: center;
-    margin-top: 1vh;
+    padding-top: 1vh;
     font-weight: 600;
     color: rgb(96, 93, 93);;
 }
@@ -345,6 +361,10 @@ h3 {
     margin-top: 1.2vh;
     margin-left: 1vw;
     background-color: white;
+}
+
+.start-post:hover{
+    background-color: rgb(234, 234, 234);
 }
 
 .start-post h3 {
@@ -401,6 +421,9 @@ h3 {
     font-size: 0.8em;
     color: #636363;
 }
+.right-part1 li:hover{
+    background-color: rgb(234, 234, 234);
+}
 
 .right-part1 li{
     font-weight: bold;
@@ -413,7 +436,6 @@ h3 {
     margin-left: -0.7em;
     color: rgb(96, 93, 93);
     padding: 5px;
-
 }
 
 .right-part1 p {
@@ -422,22 +444,35 @@ h3 {
 
 .right-part1 h2 {
     font-size: 0.9em;
-    padding-left: 1vw;
+    margin-left:0.8em;
     width: 5.5vw;
     float: left;
+    border-radius: 6px;
     color: rgb(74, 71, 71);
-    margin-top: 0.5vh;
+    margin-top: 0.1vh;
+    margin-bottom: 0.5vh;
+    display: flex;
+    align-items: center;
+    
 
 }
 
 .arrow {
     position: relative;
-    top: -2px;
-    left: -5px;
+    left:-5px;
     float: left;
     color: rgb(74, 71, 71);
-    margin-top: 0.5vh;
+    padding-top: 0.3vh;
+    padding-left: 0.1em;
+    margin-bottom: 0.5vh;
+    float: right;
+  
 }
+
+.right-part1 h2:hover{
+    background-color: rgb(234, 234, 234);
+}
+
 
 #mid-profile {
     width: 3.2em;
