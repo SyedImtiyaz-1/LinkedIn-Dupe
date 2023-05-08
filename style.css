@@ -270,9 +270,7 @@ h3 {
     width: 29vw;
     display: flex;
     border-radius: 10px;
-   justify-self:self-start;
    background-color: white;
-   /* position: absolute; */
 }
 
 .post-profile{
@@ -313,7 +311,7 @@ h3 {
     background-color: white;
     margin-bottom: 0.5rem;
     border-radius: 10px;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .right-part1 h1{
@@ -384,11 +382,38 @@ h3 {
 }
 
 .posticons{
+    display: flex;
+    justify-items: center;
+    position: absolute;
     width: 100%;
-    display: block;
-    padding-top: 1vh;
-    /* justify-content: space-evenly; */
-    align-items: end;
-    padding-top: 0;
+    align-self: flex-end;
+    font-size: 1.5vh;
+}
+.posticons a{
+    justify-content: space-around;
+    margin: auto;
+    width: 4.3vw;
+    display: flex;
+    align-items: center;
+    border-radius: 0.3em;
+    font-weight: bold;
+    text-decoration: none;
+    height: 4.5vh;
+    margin-bottom: 0.3em;
+    font-size: 1.6vh;
+}
+
+#txt-maintain{
+    width: 7vw;
+}
+
+.posticons i{
+    flex-direction: row;
+    font-size: 1.1em;
+}
+
+.posticons a:hover{
+    background-color: rgb(227, 225, 225);
+    
 
 }
