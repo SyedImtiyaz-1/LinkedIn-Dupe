@@ -451,12 +451,14 @@ h3 {
 
 .feed{
     height: 66.5vh;
+    display: flex;
     width: 100%;
     background-color: orange;
+    border-radius: 10px;
 }
 
 .feed-profile{
-    display: flex;
+    /* don't 'df' here */
     padding-left: 0.7em;
     position: relative;
     bottom:0.5em;
@@ -465,3 +467,15 @@ h3 {
 .feed-profile img{
     width: 3rem;
 }
+
+.feed-user-name{
+    margin-top: 1.5vh;
+   margin-left:0.8rem;
+   text-align: left;
+   float: left;
+}
+
+.feed-user-name p{
+    font-size: 1.3vh;
+}
+
