@@ -94,46 +94,46 @@ h3 {
 
 /* main */
 
-.container{
+/* .container {
     height: 100%;
     width: 100%;
-}
+} */
 
-.maincont{
+.maincont {
     display: grid;
     width: 59%;
     margin: 2.5vh auto;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 54px;
-    height: 78vh; 
+    height: 78vh;
     /* border: 1px solid black; */
     flex-wrap: wrap;
     border-radius: 10px;
 }
 
-.left{
+.left {
     background-color: #f3f2ef;
     /* f3f2ef */
     flex-direction: column;
-    height: 77.5vh;
+    height: 300vh;
     width: 11.8vw;
-    position: absolute;
+    position: relative;
     align-self: start;
     margin-bottom: 20px;
 }
 
-.left-part1{
+.left-part1 {
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     background-image: url(imgs/1677516984935.jpeg);
-    background-size:12vw;
+    background-size: 12vw;
     background-repeat: no-repeat;
-    height: 33.5vh;
+    height: auto;
     border-radius: 10px;
 }
 
-.img img{
+.img img {
     width: 7vh;
     position: relative;
     top: 2vh;
@@ -142,87 +142,118 @@ h3 {
     border: 2px solid white;
 }
 
-.left-part2{
-    height: 25.5vh;
+.left-part2 {
+    height: auto;
     background-color: rgb(255, 255, 255);
     margin-top: 1vh;
     border-radius: 10px;
+    position: sticky;
+
+    top: 10px;
 }
 
-.section-1{
+.section-1 {
     margin-top: 4.4vh;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid silver;
+    cursor: pointer;
 }
 
-.section-1 h2{
+.section-1 h2 {
     margin-bottom: 0.5vh;
     font-size: 1em;
     font-weight: bold;
 }
 
-.section-1 p{
-    font-size:0.9em;
-    color: rgb(102, 99, 99);
-    margin-bottom: 1.5vh;
-    
+.section-1 h2:hover {
+    text-decoration: underline rgb(67, 35, 247);
 }
 
-.section-2{
+.section-1 p {
+    font-size: 0.9em;
+    color: rgb(102, 99, 99);
+    margin-bottom: 1.5vh;
+    cursor: text;
+
+}
+
+.section-2 {
     float: left;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid silver;
     width: 100%;
     text-align: left;
 }
 
-.section-2 h2{
+.section-2 h2 {
     margin-top: 0.7rem;
     margin-bottom: 0.3vh;
     font-size: 0.9em;
     font-weight: bold;
     padding-left: 1rem;
-    
+
 }
 
-.section-2 p{
-    font-size:0.8em;
+.section-2:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.section-3:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.section-3 span:hover {
+    color: rgb(0, 85, 255);
+}
+
+.section-2 p {
+    font-size: 0.8em;
     color: rgb(102, 99, 99);
-    margin-bottom: 0.7vh; 
+    margin-bottom: 0.7vh;
     padding-left: 1rem;
     padding-bottom: 0.3rem;
 }
 
 
-.section-3{
+.section-3 {
     float: left;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid silver;
     width: 100%;
     text-align: left;
 }
 
-.section-3 h2{
+.section-3 i {
+    font-size: 0.8em;
+    padding-bottom: 1.2vh;
+    color: rgb(205, 143, 0);
+}
+
+.section-3 h2 {
     margin-top: 0.7rem;
     margin-bottom: 0.1vh;
     font-size: 0.8em;
     font-weight: lighter;
     color: rgb(104, 102, 102);
-    padding-left: 1rem;   
-}
-
-.section-3 p{
-    font-size:0.8em;
-    color: rgb(0, 0, 0);
     padding-left: 1rem;
-    padding-bottom: 0.8rem;
-    font-weight: bold;
 }
 
-.section-4{
+.section-3 span {
+    font-size: 0.8em;
+    color: rgb(0, 0, 0);
+    padding-left: 0.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.section-4 {
     float: left;
     width: 100%;
     text-align: left;
 }
 
-.section-4 h2{
+.section-4:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.section-4 h2 {
     margin-top: 0.5rem;
     margin-bottom: 1vh;
     font-size: 0.9em;
@@ -231,31 +262,55 @@ h3 {
     font-weight: bold;
 }
 
-.bottom-part1 p{
+.bottom-part1 p {
     text-align: left;
     font-size: 0.8em;
-    padding: 0.5em;
+    padding: 0.8em;
     font-weight: bold;
-    color:rgb(21, 85, 236);
+    color: rgb(21, 85, 236);
 }
 
-.bottom-part1 h3{
-    text-align: left;
-    font-size: 0.9em;
-    padding: 0.5em;
-    color:rgb(102, 99, 99);
+.bottom-part1 span:hover{
+    background-color: rgb(234, 234, 234);
 }
 
-#btm-hr{
+
+.bottom-part1 i {
+    color: #4f4e4e;
+    float: left;
+    padding-left: 0.5em;
+}
+
+.bottom-part1 span {
+    display: flex;
+    text-align: start;
+    font-size: 0.8em;
+    padding-left:0.9em;
+    color: rgb(102, 99, 99);
+    font-weight: 700;
+}
+
+#recent {
+    font-weight: lighter;
+    color: #000;
+}
+
+#btm-hr {
     border-bottom: 1px solid rgb(162, 160, 160);
 }
 
-#desc{
+#desc {
     text-align: center;
     font-size: 1.6vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    font-weight: 600;
+    color: rgb(96, 93, 93);;
 }
 
-.mid-side{
+
+.mid-side {
     /* border: 1px solid red; */
     height: 100%;
     width: 29vw;
@@ -265,21 +320,21 @@ h3 {
     position: absolute;
 }
 
-#post{
+#post {
     border: 1px solid lightgrey;
     height: 12vh;
     width: 29vw;
     display: flex;
     border-radius: 10px;
-   background-color: white;
+    background-color: white;
 }
 
-.post-profile{
+.post-profile {
     font-size: 3em;
     padding: 0.5rem 0 0 0.7rem;
 }
 
-.start-post{
+.start-post {
     border: 1px solid silver;
     height: 5vh;
     width: 24.5vw;
@@ -292,22 +347,23 @@ h3 {
     background-color: white;
 }
 
-.start-post h3{
+.start-post h3 {
     padding-left: 0.9rem;
     font-size: 1.5vh;
     color: rgb(88, 84, 84);
+    font-weight: bold;
 }
 
-.right-side{
+.right-side {
     /* border: 1px solid red; */
-    height: 60vh;
+    height: 300vh;
     width: 15.7vw;
     position: absolute;
     justify-self: flex-end;
 }
 
-.right-part1{
-    height: 33vh;
+.right-part1 {
+    height: auto;
     width: 15.7vw;
     background-color: white;
     margin-bottom: 0.5rem;
@@ -315,13 +371,13 @@ h3 {
     overflow-y: scroll;
 }
 
-.right-part1 h1{
+.right-part1 h1 {
     text-align: left;
     padding: 0.5rem;
     font-size: 1.7vh;
 }
 
-.right-part2{
+.right-part2 {
     height: 24.9vh;
     width: 15.7vw;
     background-color: white;
@@ -329,21 +385,29 @@ h3 {
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
+    position: sticky;
+    top: 10px;
 }
 
-.right-part1 ul{
+.right-part1 ul {
     text-align: left;
-    margin-left:1.1em;
+    margin-left: 1.1em;
     flex-wrap: wrap;
     /* margin-right: 0.1rem; */
     list-style: none;
 }
 
-.right-part1 p{
+.right-part1 p {
+    font-size: 0.8em;
+    color: #636363;
+}
+
+.right-part1 li{
+    font-weight: bold;
     font-size: 0.9em;
 }
 
-.right-part1 ul li::before{
+.right-part1 ul li::before {
     content: "\2022";
     font-size: 1.3em;
     margin-left: -0.7em;
@@ -352,37 +416,37 @@ h3 {
 
 }
 
-.right-part1 p{
+.right-part1 p {
     margin-bottom: 0.5em;
 }
 
-.right-part1 h2{
+.right-part1 h2 {
     font-size: 0.9em;
     padding-left: 1vw;
     width: 5.5vw;
     float: left;
     color: rgb(74, 71, 71);
     margin-top: 0.5vh;
-    
+
 }
 
-.arrow{
+.arrow {
     position: relative;
     top: -2px;
     left: -5px;
     float: left;
-    color:rgb(74, 71, 71);
+    color: rgb(74, 71, 71);
     margin-top: 0.5vh;
 }
 
-#mid-profile{
+#mid-profile {
     width: 3.2em;
     position: relative;
     top: 0.5em;
     left: 0.8em;
 }
 
-.posticons{
+.posticons {
     display: flex;
     justify-items: center;
     position: absolute;
@@ -390,7 +454,8 @@ h3 {
     align-self: flex-end;
     font-size: 1.5vh;
 }
-.posticons a{
+
+.posticons a {
     justify-content: space-around;
     margin: auto;
     width: 4.3vw;
@@ -402,22 +467,23 @@ h3 {
     height: 4.5vh;
     margin-bottom: 0.3em;
     font-size: 1.6vh;
+    color: #636363;
 }
 
-#txt-maintain{
+#txt-maintain {
     width: 7vw;
 }
 
-.posticons i{
+.posticons i {
     flex-direction: row;
     font-size: 1.1em;
 }
 
-.posticons a:hover{
+.posticons a:hover {
     background-color: rgb(227, 225, 225);
 }
 
-.hr-sec{
+.hr-sec {
     display: block;
     height: 0;
     width: 100%;
@@ -425,8 +491,8 @@ h3 {
     margin-bottom: 1vh;
 }
 
-.hr-sec hr{
-    width:23vw;
+.hr-sec hr {
+    width: 23vw;
     display: flex;
     position: relative;
     float: left;
@@ -437,45 +503,94 @@ h3 {
     height: 0.1px;
 }
 
-.hr-sec button{
+.hr-sec button {
     border: none;
     margin-top: 0.4em;
     margin-right: 0.5vw;
 }
 
-.hr-sec small{
+.hr-sec small {
     border: none;
     margin-top: 0.4em;
-   color: #636363;
+    color: #636363;
 }
 
-.feed{
-    height: 66.5vh;
-    display: flex;
+.feed {
+    height: auto;
     width: 100%;
-    background-color: orange;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
+    margin-bottom: 1vh;
 }
 
-.feed-profile{
-    /* don't 'df' here */
-    padding-left: 0.7em;
-    position: relative;
-    bottom:0.5em;
+.feed-profile img {
+    float: left;
+    width: 5vh;
+    margin-left: 0.7em;
+    margin-top: 0.7em;
+    border-radius: 50%;
 }
 
-.feed-profile img{
-    width: 3rem;
+.feed-user-name {
+    /* display: inline-block; this will ignored if we're using float-left*/
+    text-align: left;
+    float: left;
+    margin: 0.7em;
 }
 
-.feed-user-name{
-    margin-top: 1.5vh;
-   margin-left:0.8rem;
-   text-align: left;
-   float: left;
+.feed-user-name p {
+    font-size: small;
+    color: #636363;
 }
 
-.feed-user-name p{
+.feed-img img {
+    width: 100%;
+    padding: 0.1em;
+}
+
+.like-sec {
+    border-bottom: 1px solid silver;
+    padding: 0 12px 0 12px;
+    height: 2.3vh;
+}
+
+.like-sec img {
+    width: 0.9vw;
+    float: left;
+    padding-left: 0.1vw;
+}
+
+.like-sec small {
+    float: left;
     font-size: 1.3vh;
+    padding-top: 0.5px;
+    padding-left: 0.4em;
+    color: #636363;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.feed-btns {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    
+}
+
+.feed-btns a{
+    text-decoration: none;
+    color: #636363;
+    position: relative;
+    top: 1vh;
+    padding: 1.4vh;
+    font-weight: bold;
+    height: auto;
+}
+
+.feed-btns a:hover{
+    background-color: rgb(234, 234, 234);
+    border-radius: 5px;
+}
+
+.feed-btns i {
+    padding-right: 0.3em;
+}
