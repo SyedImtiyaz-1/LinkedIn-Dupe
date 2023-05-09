@@ -1,3 +1,5 @@
+// ignore :) 
+
 // let openPost = document.querySelector(".startpost");
 // let closePost = document.getElementById('closepop');
 

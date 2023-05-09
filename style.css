@@ -281,11 +281,11 @@ h3 {
     color: rgb(21, 85, 236);
 }
 
-.bottom-part1 span:hover{
+.bottom-part1 span:hover {
     background-color: rgb(234, 234, 234);
 }
 
-.desc-hvr:hover{
+.desc-hvr:hover {
     background-color: rgb(234, 234, 234);
     border-bottom-right-radius: 6px;
 }
@@ -301,7 +301,7 @@ h3 {
     display: flex;
     text-align: start;
     font-size: 0.8em;
-    padding-left:0.9em;
+    padding-left: 0.9em;
     color: rgb(102, 99, 99);
     font-weight: 700;
 }
@@ -322,7 +322,8 @@ h3 {
     justify-content: center;
     padding-top: 1vh;
     font-weight: 600;
-    color: rgb(96, 93, 93);;
+    color: rgb(96, 93, 93);
+    ;
 }
 
 
@@ -363,7 +364,7 @@ h3 {
     background-color: white;
 }
 
-.start-post:hover{
+.start-post:hover {
     background-color: rgb(234, 234, 234);
 }
 
@@ -421,11 +422,12 @@ h3 {
     font-size: 0.8em;
     color: #636363;
 }
-.right-part1 li:hover{
+
+.right-part1 li:hover {
     background-color: rgb(234, 234, 234);
 }
 
-.right-part1 li{
+.right-part1 li {
     font-weight: bold;
     font-size: 0.9em;
 }
@@ -444,7 +446,7 @@ h3 {
 
 .right-part1 h2 {
     font-size: 0.9em;
-    margin-left:0.8em;
+    margin-left: 0.8em;
     width: 5.5vw;
     float: left;
     border-radius: 6px;
@@ -453,23 +455,23 @@ h3 {
     margin-bottom: 0.5vh;
     display: flex;
     align-items: center;
-    
+
 
 }
 
 .arrow {
     position: relative;
-    left:-5px;
+    left: -5px;
     float: left;
     color: rgb(74, 71, 71);
     padding-top: 0.3vh;
     padding-left: 0.1em;
     margin-bottom: 0.5vh;
     float: right;
-  
+
 }
 
-.right-part1 h2:hover{
+.right-part1 h2:hover {
     background-color: rgb(234, 234, 234);
 }
 
@@ -573,28 +575,28 @@ h3 {
     margin: 0.7em;
 }
 
-.feed-user-name a{
+.feed-user-name a {
     text-decoration: none;
     color: black;
     /* display: flex; */
 }
 
-.dots{
+.dots {
     display: flex;
     flex-direction: row;
     float: right;
     margin-left: 23vw;
     position: absolute;
-    color:#636363;
+    color: #636363;
 }
 
-.feed-user-name .dots:hover{
+.feed-user-name .dots:hover {
     background-color: #d4d4d4;
     color: #000;
     border-radius: 50%;
 }
 
-.feed-user-name a:hover{
+.feed-user-name a:hover {
     text-decoration: 2px underline;
     color: blue;
 }
@@ -634,10 +636,10 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     height: auto;
-    
+
 }
 
-.feed-btns a{
+.feed-btns a {
     text-decoration: none;
     color: #636363;
     position: relative;
@@ -647,7 +649,7 @@ h3 {
     height: auto;
 }
 
-.feed-btns a:hover{
+.feed-btns a:hover {
     background-color: rgb(234, 234, 234);
     border-radius: 5px;
 }
