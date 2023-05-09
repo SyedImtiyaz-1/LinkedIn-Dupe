@@ -573,6 +573,32 @@ h3 {
     margin: 0.7em;
 }
 
+.feed-user-name a{
+    text-decoration: none;
+    color: black;
+    /* display: flex; */
+}
+
+.dots{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-left: 23vw;
+    position: absolute;
+    color:#636363;
+}
+
+.feed-user-name .dots:hover{
+    background-color: #d4d4d4;
+    color: #000;
+    border-radius: 50%;
+}
+
+.feed-user-name a:hover{
+    text-decoration: 2px underline;
+    color: blue;
+}
+
 .feed-user-name p {
     font-size: small;
     color: #636363;
