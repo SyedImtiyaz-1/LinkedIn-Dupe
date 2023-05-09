@@ -140,6 +140,7 @@ h3 {
     bottom: 0;
     border-radius: 50%;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 .left-part2 {
@@ -181,6 +182,7 @@ h3 {
     border-bottom: 1px solid silver;
     width: 100%;
     text-align: left;
+    cursor: pointer;
 }
 
 .section-2 h2 {
@@ -189,7 +191,6 @@ h3 {
     font-size: 0.9em;
     font-weight: bold;
     padding-left: 1rem;
-
 }
 
 .section-2:hover {
@@ -218,6 +219,7 @@ h3 {
     border-bottom: 1px solid silver;
     width: 100%;
     text-align: left;
+    cursor: pointer;
 }
 
 .section-3 i {
@@ -250,6 +252,7 @@ h3 {
     height: 4vh;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .section-4 span {
@@ -283,6 +286,7 @@ h3 {
 
 .bottom-part1 span:hover {
     background-color: rgb(234, 234, 234);
+    cursor: pointer;
 }
 
 .desc-hvr:hover {
@@ -323,7 +327,7 @@ h3 {
     padding-top: 1vh;
     font-weight: 600;
     color: rgb(96, 93, 93);
-    ;
+    cursor: pointer;
 }
 
 
@@ -362,6 +366,7 @@ h3 {
     margin-top: 1.2vh;
     margin-left: 1vw;
     background-color: white;
+    cursor: pointer;
 }
 
 .start-post:hover {
@@ -421,10 +426,12 @@ h3 {
 .right-part1 p {
     font-size: 0.8em;
     color: #636363;
+    cursor: pointer;
 }
 
 .right-part1 li:hover {
     background-color: rgb(234, 234, 234);
+    cursor: pointer;
 }
 
 .right-part1 li {
@@ -455,8 +462,7 @@ h3 {
     margin-bottom: 0.5vh;
     display: flex;
     align-items: center;
-
-
+    cursor: pointer;
 }
 
 .arrow {
@@ -566,6 +572,7 @@ h3 {
     margin-left: 0.7em;
     margin-top: 0.7em;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .feed-user-name {
@@ -585,9 +592,10 @@ h3 {
     display: flex;
     flex-direction: row;
     float: right;
-    margin-left: 23vw;
+    margin-left: 23.5vw;
     position: absolute;
     color: #636363;
+    cursor: pointer;
 }
 
 .feed-user-name .dots:hover {
@@ -609,6 +617,8 @@ h3 {
 .feed-img img {
     width: 100%;
     padding: 0.1em;
+    cursor: default;
+
 }
 
 .like-sec {
@@ -621,6 +631,13 @@ h3 {
     width: 0.9vw;
     float: left;
     padding-left: 0.1vw;
+    cursor: pointer;
+}
+
+.like-sec small:hover{
+    text-decoration: rgb(50, 127, 242) underline;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .like-sec small {
@@ -656,4 +673,9 @@ h3 {
 
 .feed-btns i {
     padding-right: 0.3em;
+}
+
+.info-sec{
+    position: sticky;
+    top: 26.4vh;
 }
